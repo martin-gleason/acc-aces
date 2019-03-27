@@ -1,0 +1,62 @@
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Nobile|Lato');
+</style type>
+
+/* not working in this version
+
+:root{
+	--blue: #4DA7D1;
+  --grey: #9b9292;
+  --black: #0e0705;
+  --green: #a5d3c1;
+  --gold: #eebf48;
+  --accBackground: #ffd;
+
+}
+*/
+
+a, a > code {
+	font-family: Nobile;
+  color: #4DA7D1;
+  text-decoration: underline;
+}
+
+
+
+p, li {
+	font-family: Nobile;
+	font-size: 1.3em;
+	color: #0e0705;
+}
+
+
+h2{
+	font-family: Lato;
+	font-size: 1.9em;
+	text-decoration: underline;
+	color: #DC2F20;
+}
+
+h6{
+	font-family: Lato;
+	font-size: 1.4em;
+	font-weight: bolder;
+	color: #0e0705;
+}
+
+html, body{
+	background-color: #ffd;
+}
+
+.survey {
+	border: "rounded";
+}
+
+.card-body{
+	background: #f5f5f5;
+}
+
+.card-header{
+	background: #4DA7D1;
+	font-family: Lato;
+}
