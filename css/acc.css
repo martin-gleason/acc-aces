@@ -33,8 +33,7 @@ p, li {
 h2{
 	font-family: Lato;
 	font-size: 1.9em;
-	text-decoration: underline;
-	color: #DC2F20;
+	color: #0e0705;
 }
 
 h6{
@@ -50,11 +49,15 @@ html, body{
 }
 
 .card-body{
-	background: #ffd;
+	background: #fff;
 }
 
 .card-header{
 	background: #4DA7D1;
 	font-family: Lato;
+}
+
+.btn {
+	background: #4DA7D1;
 }
 
