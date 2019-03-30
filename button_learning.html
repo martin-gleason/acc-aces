@@ -1,0 +1,44 @@
+<!--- button learning --->
+<html lang="en">
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "Description" content = "Brief ACE(s) Questionnaire in web form with Bootstrap 4.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel = "stylesheet" type = "text/css" href = "css/acc.css">
+		<title>ACC ACE(s) Survey</title>
+	</head>
+	<body>
+<!--- header from master --->
+<form action="" method="post">
+	<div class = "form-group">
+	<div class = "card text-white bg-primary mb-3" style = "width: 40rem;">
+	<div class = "card-header"><h6>Question One<h6></div>
+	<div class = "card-body">
+		<h6 class= "cards-title">Did a parent or other adult in the household often...</h6>
+		</br>
+		<p class = "card-text">
+					Swear at you, insult you, put you down, or humiliate you? 
+		</br>
+		<strong>or</strong>
+		</br>
+				Act in a way that made you afraid that you might be physically hurt?</p>
+		<div class="acc-input-group">
+			<label>
+			
+				<input type="radio" id="yes_q1" name="q1" value="1">
+				<span>Yes</span>
+			</label>
+			<label>
+				<input type="radio" id="no_q1" name="q1" value="0">
+				<span>No</span>
+				</p>
+			</label>
+		</div>
+
+<!-- id is for the server, name makes it a group, makes it mutually exclusive. Id links input to label.  -->
+	</div>
+	</div>
+		<button type="submit" class="btn btn-primary btn-lg btn-block" id = "q1">Submit Answers</button>
+	</div>
+</form>

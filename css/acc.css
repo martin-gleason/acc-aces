@@ -1,6 +1,5 @@
-<style type="text/css">
+
 @import url('https://fonts.googleapis.com/css?family=Nobile|Lato');
-</style type>
 
 /* not working in this version
 
@@ -11,17 +10,15 @@
   --green: #a5d3c1;
   --gold: #eebf48;
   --accBackground: #ffd;
-
+  --red: #E44;
 }
 */
 
 a, a > code {
-	font-family: Nobile;
+	font-family: Lato;
   color: #4DA7D1;
   text-decoration: underline;
 }
-
-
 
 p, li {
 	font-family: Nobile;
@@ -31,13 +28,13 @@ p, li {
 
 
 h2{
-	font-family: Lato;
+	font-family: Nobile;
 	font-size: 1.9em;
 	color: #0e0705;
 }
 
 h6{
-	font-family: Lato;
+	font-family: Nobile;
 	font-size: 1.4em;
 	font-weight: bolder;
 	color: #0e0705;
@@ -61,3 +58,30 @@ html, body{
 	background: #4DA7D1;
 }
 
+
+.form-group {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.acc-input-group {
+	font-size: 1rem;
+	font-family: Lato;
+	display: flex;
+	color: #4DA7D1;
+	justify-content: space-between;
+
+} 
+
+.acc-input-group > label {
+	display:block;
+	padding: 1rem 1rem 0 0;
+	margin: 0;
+	float: right;
+}
+
+
+input:checked + span{ 
+	color: #E44;
+}
